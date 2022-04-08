@@ -16,7 +16,13 @@ const Container = styled.div`
   width: 100%;
   height: 604px;
   margin: auto 0;
-`;
+
+  @media only screen and (max-width: 600px) {
+    display: block;
+    height: 100%;
+  }
+
+  `;
 
 const LeftImage = styled.div`
   position: relative;
@@ -24,6 +30,10 @@ const LeftImage = styled.div`
   display: flex;
   vertical-align: middle;
   z-index: 0;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 
 const RightImage = styled.div`
@@ -45,6 +55,13 @@ const CenterTexts = styled.div`
   width: 570px;
   right: 377px;
   z-index:999;
+
+  @media only screen and (max-width: 600px) {
+    right: 0;
+    margin: auto 16px;
+    width: auto;
+    height: 207px
+  }
 `;
 
 const CenterTextsFrame1 = styled.div`
@@ -61,6 +78,10 @@ const CenterTextsFrame1 = styled.div`
     font-size: 25px;
     line-height: 31px;
 
+  }
+
+  @media only screen and (max-width: 600px) {
+    height: 70px
   }
 `;
 
@@ -86,6 +107,16 @@ const CenterTextsFrame2 = styled.div`
 
     letter-spacing: -0.02em;
   }
+
+  @media only screen and (max-width: 600px) {
+    height: auto;
+    span {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
 `;
 
 const CenterTextsFrame3 = styled.div`
@@ -103,6 +134,19 @@ const CenterTextsFrame3 = styled.div`
     font-size: 16px;
     line-height: 20px;
   }
+
+  @media only screen and (max-width: 600px) {
+    height: 60px;
+    width: 295px;
+    margin: 0;
+
+    span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
 `;
 
 const CenterTextsFrame4 = styled.div`
@@ -110,6 +154,10 @@ const CenterTextsFrame4 = styled.div`
     vertical-align: middle;
     display: flex;
     justify-content: end;
+
+    @media only screen and (max-width: 600px) {
+      display: none;
+    }
 `;
 
 const FrameArrow = styled.div`
@@ -129,10 +177,22 @@ const ContainerForm = styled.div`
   z-index: 999;
   border-radius: 5px;
   box-shadow: 3px 6px 10px 0px #00000047;
+
+  @media only screen and (max-width: 600px) {
+    right: 0;
+    width: auto;
+    margin: 0 16px;
+    padding: 16px;
+    height: 400px;
+  }
 `;
 
 const Space = styled.div`
   height: 20px;
+
+  @media only screen and (max-width: 600px) {
+    height: 10px;
+  }
 `;
 
 const Home: NextPage = () => {

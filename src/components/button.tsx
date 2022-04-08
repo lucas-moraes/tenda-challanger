@@ -26,6 +26,10 @@ const ButtonItem = styled.button`
     &:focus{
         outline: none;
     }
+
+    @media only screen and (max-width: 600px) {
+        height: 40px;
+      }
 `;
 
 

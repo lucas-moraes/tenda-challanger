@@ -21,6 +21,11 @@ const FrameIcon = styled.div`
     display: flex;
     justify-content: center;
     padding: 6px;
+
+    @media only screen and (max-width: 600px) {
+        width: 40px;
+        height: 40px;
+      }
 `;
 
 const InputField = styled.input`

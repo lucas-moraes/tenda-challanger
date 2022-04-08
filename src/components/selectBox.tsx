@@ -21,6 +21,11 @@ const FrameIcon = styled.div`
     display: flex;
     justify-content: center;
     padding: 6px;
+
+    @media only screen and (max-width: 600px) {
+        width: 40px;
+        height: 40px;
+      }
 `;
 
 const SelectField = styled.select`
@@ -72,6 +77,11 @@ const ArrowSelect = styled( icon1.KeyboardArrowDown )`
     width: 30px;
     height: 36px;
     pointer-events: none;
+
+    @media only screen and (max-width: 600px) {
+        top: 27px;
+        right: 20px;
+      }
 
 `;
 
