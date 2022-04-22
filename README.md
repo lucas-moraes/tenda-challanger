@@ -3,11 +3,9 @@
 
 <h2>Desenvolver uma página utilizando como base um layout definido no figma</h2>
 
----
-</br></br>
 </br>
 
-<img src="https://user-images.githubusercontent.com/50468352/164752991-a469cccc-713b-4ba8-852d-fbbb005e63e8.png" width="300" />
+<img src="https://user-images.githubusercontent.com/50468352/164752991-a469cccc-713b-4ba8-852d-fbbb005e63e8.png" width="600" />
 <img src="https://user-images.githubusercontent.com/50468352/164752979-7176c11c-cc42-4fc3-8a19-0233ebf2be3f.png" width="200" />
 
 ---
